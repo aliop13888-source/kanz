@@ -1,0 +1,121 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f0f8ff; /* آبی خیلی روشن */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3399ff; /* آبی عادی */
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3399ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #007acc;
+}
+
+.search, .articles, .features {
+  margin: 20px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search h2, .articles h2, .features h2 {
+  color: #0066cc;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #3399ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #28a745; /* سبز ملایم هنگام هاور */
+}
+
+.article-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #3399ff;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+.form-section {
+  margin: 20px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section input, .form-section textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-section button {
+  align-self: flex-start;
+}

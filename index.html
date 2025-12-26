@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>کانون نخبگان کنز</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+  <!-- هدر و منو -->
+  <header>
+    <h1>کانون نخبگان کنز</h1>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="dashboard.html">داشبورد</a>
+      <a href="signup.html">ثبت‌نام</a>
+      <a href="login.html">ورود</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+  </header>
+
+  <!-- انتخاب پایه -->
+  <section class="search">
+    <h2>🎓 انتخاب پایه تحصیلی</h2>
+    <div class="search-box">
+      <select id="gradeSelect">
+        <option value="">-- انتخاب کنید --</option>
+        <option value="lessons/grade7.html">پایه هفتم</option>
+        <option value="lessons/grade8.html">پایه هشتم</option>
+        <option value="lessons/grade9.html">پایه نهم</option>
+      </select>
+      <button onclick="goToGrade()" class="btn">برو</button>
+    </div>
+  </section>
+
+  <!-- مطالب ویژه -->
+  <section class="articles">
+    <h2>🌟 مطالب ویژه</h2>
+    <div class="article-buttons">
+      <a href="articles/exam-tips.html" class="btn">چگونه در امتحان ۲۰ بگیریم</a>
+      <a href="articles/quick-review.html" class="btn">روش‌های سریع مرور قبل از امتحان</a>
+      <a href="articles/stress-control.html" class="btn">چطور استرس امتحان رو کم کنیم</a>
+    </div>
+  </section>
+
+  <!-- پیشنهادهای حرفه‌ای -->
+  <section class="features">
+    <h2>✨ امکانات حرفه‌ای آینده</h2>
+    <ul>
+      <li>📊 نمودار پیشرفت در درس‌ها</li>
+      <li>🏆 سیستم امتیازدهی و رتبه‌بندی</li>
+      <li>📥 دانلود جزوه‌ها و نمونه سوالات</li>
+      <li>💬 ارتباط با مشاوران آموزشی</li>
+      <li>🔔 اعلان‌های هوشمند و یادآوری امتحان</li>
+      <li>🎥 ویدیوهای انگیزشی و مهارت مطالعه</li>
+    </ul>
+  </section>
+
+  <!-- فوتر -->
+  <footer>
+    <p>© 2025 کانون نخبگان کنز</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
